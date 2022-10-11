@@ -1,0 +1,78 @@
+.header {
+	width: 100%;
+	background: #ffffff;
+	box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.proday {
+	font-family: 'Gilroy';
+	width: 152px;
+	height: 34px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 17px;
+	color: #000000;
+	margin-left: 14px;
+}
+
+#name,
+#name1 {
+	display: none;
+}
+.kirish__page {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.mx-2 {
+	color: #4e72ca;
+}
+
+.item-link {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #000000;
+	text-decoration: none;
+}
+.nav-list {
+	margin: 0;
+	padding: 0;
+	width: 425px;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+}
+.link-kirish {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 21px;
+	color: #4e72ca;
+	text-decoration: none;
+}
+.bxod {
+	text-decoration: underline;
+}
+.item-active {
+	margin-left: 0;
+	padding-left: 0;
+}
+.line-img {
+	background-image: url('../.././assets/imgs/Line.svg');
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
